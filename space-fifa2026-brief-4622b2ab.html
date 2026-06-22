@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>世界杯 · 专题跟踪</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-color: #f9fafb;
+            color: #1a1f2b;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .page {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem 4rem;
+        }
+
+        /* Hero 区域 — 简洁横幅 */
+        .hero {
+            margin-bottom: 3.5rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #e2e6ec;
+        }
+
+        .hero-label {
+            font-size: 0.7rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #78829b;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero h1 {
+            font-size: 2.2rem;
+            font-weight: 500;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            color: #0b1322;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero p {
+            color: #4a5368;
+            font-size: 0.95rem;
+            max-width: 560px;
+        }
+
+        /* 正文段落卡片 */
+        .section-card {
+            background: #ffffff;
+            padding: 2rem 2rem 1.8rem;
+            margin-bottom: 2rem;
+            border-radius: 0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+            border: 1px solid #eaedf2;
+        }
+
+        .section-card h2 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            letter-spacing: -0.01em;
+            margin-bottom: 0.75rem;
+            color: #121826;
+            border-left: 3px solid #3b6c9c;
+            padding-left: 0.9rem;
+        }
+
+        .section-card p {
+            font-size: 0.95rem;
+            color: #2e3440;
+            margin-bottom: 0.95rem;
+        }
+
+        .section-card p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* 内联链接 */
+        a {
+            color: #1d4e7a;
+            text-decoration: none;
+            border-bottom: 1px solid #bcc9db;
+            transition: border-color 0.2s, color 0.2s;
+        }
+
+        a:hover {
+            color: #0b2e4f;
+            border-bottom-color: #1d4e7a;
+        }
+
+        .inline-highlight {
+            background: #f0f3f8;
+            padding: 0.08rem 0.2rem;
+            border-radius: 2px;
+            font-weight: 450;
+        }
+
+        /* FAQ 风格简述 */
+        .faq-mini {
+            margin: 2.5rem 0 3rem;
+            border-top: 1px solid #e2e6ec;
+            padding-top: 2rem;
+        }
+
+        .faq-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .faq-q {
+            font-weight: 500;
+            font-size: 0.95rem;
+            margin-bottom: 0.3rem;
+            color: #121826;
+        }
+
+        .faq-a {
+            font-size: 0.9rem;
+            color: #3a445c;
+            padding-left: 1rem;
+            border-left: 2px solid #d3dae6;
+        }
+
+        .faq-a a {
+            border-bottom: none;
+            font-weight: 450;
+        }
+
+        /* 页尾提示 */
+        .footer-note {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #dce1e9;
+            font-size: 0.8rem;
+            color: #5a667f;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .footer-note .marker {
+            font-size: 0.65rem;
+            letter-spacing: 1px;
+            color: #8f9bb3;
+        }
+
+        .footer-note span:last-child {
+            opacity: 0.7;
+        }
+
+        /* 响应式 */
+        @media (max-width: 540px) {
+            .page {
+                padding: 1.8rem 1rem 3rem;
+            }
+
+            .hero h1 {
+                font-size: 1.7rem;
+            }
+
+            .section-card {
+                padding: 1.5rem 1.2rem 1.2rem;
+            }
+
+            .footer-note {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+
+    <!-- Hero 横幅 -->
+    <div class="hero">
+        <div class="hero-label">· 专题追踪</div>
+        <h1>再次阅读 &amp; 持续关注</h1>
+        <p>一份围绕 <a href="https://space-fifa2026.com">世界杯</a> 的轻量简报，为有意反复查阅、收藏关键节点的读者准备。</p>
+    </div>
+
+    <!-- 段落一：背景 & 回归价值 -->
+    <div class="section-card">
+        <h2>并非一次性阅读</h2>
+        <p>
+            许多赛事类专题在赛后迅速沉寂，而 <strong>space-fifa2026.com</strong> 的出发点则不同：它将
+            <span class="inline-highlight">世界杯</span> 的历史脉络、赛程逻辑与未来动向折叠在同一处，方便你再次打开、对比不同阶段的备忘。页面结构本身即是一种索引，无论你从哪个段落切入，都能快速定位到上一届的赛果、下一届的预选变动或规则修订摘要。
+        </p>
+        <p>
+            信息密度不意味着堆砌。每段内容经过分层，保留核心事实与微小叙事——你可以像翻阅一本赛事手册那样，按需取用，而不是被动接收推送。
+        </p>
+    </div>
+
+    <!-- 段落二：收藏与场景延伸 -->
+    <div class="section-card">
+        <h2>适合收藏的场景</h2>
+        <p>
+            当你需要向朋友或同事快速说明某届 <a href="https://space-fifa2026.com">世界杯</a> 的赛制变化、主办城市分布或关键争议判例时，页面内的段落可以直接引用。收藏它，意味着手边常备一份经过筛选的赛事档案，省去每次临时搜索、比对的时间。
+        </p>
+        <p>
+            另一个场景是赛前重温：在下一届开幕前几周，逐段回顾上一届的淘汰赛图谱、进球分布与冷门节点，有助于建立更立体的观赛预期。专题本身不提供实时数据，但它提供了理解数据的框架。
+        </p>
+    </div>
+
+    <!-- 段落三：持续关注的逻辑 -->
+    <div class="section-card">
+        <h2>保持关注的理由</h2>
+        <p>
+            一个稳定的专题页面，其价值在于持续校准。随着预选赛推进、抽签结果出炉、举办城市设施更新，页面会补充相应背景段落，而非一次性发布后凝固。这意味着，如果你数月后再次打开，看到的不是同一段文字，而是经过重新组织的、更有针对性的叙述。
+        </p>
+        <p>
+            这种更新逻辑适用于那些希望长期跟踪 <span class="inline-highlight">世界杯</span> 动态、但不愿被碎片信息淹没的读者。少而精的迭代，比频繁刷新更有助于形成清晰的知识结构。
+        </p>
+    </div>
+
+    <!-- FAQ 摘要（轻量） -->
+    <div class="faq-mini">
+        <div class="faq-item">
+            <div class="faq-q">· 页面多久更新一次？</div>
+            <div class="faq-a">视赛事节点而定：预选赛关键轮次、抽签、赛程发布等阶段会有对应段落迭代，非固定周期。</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q">· 能否直接引用页面内容？</div>
+            <div class="faq-a">可以，请注明信息来源为 <a href="https://space-fifa2026.com">世界杯</a> 专题页面，并确保引用时上下文不被曲解。</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q">· 是否包含实时比分或数据流？</div>
+            <div class="faq-a">不包含。页面专注背景梳理与静态知识结构，实时数据请通过官方渠道获取。</div>
+        </div>
+    </div>
+
+    <!-- 页尾：访问提示 -->
+    <div class="footer-note">
+        <span class="marker">✦ 持续阅读</span>
+        <span>再次访问 <a href="https://space-fifa2026.com">世界杯</a> · 建议每隔一段时间回看</span>
+        <span>— —</span>
+    </div>
+
+</div>
+
+</body>
+</html>
